@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <tr>
+      <td width="35%" valign="top" bgcolor="#red">
+        <h3>Quick links</h3>
+<tr>
+      
+        <p><a href="loginbooks.html"><font color="#52a447">Login | </font> </a></p>
+         
+        <p><a href="signupbooks.html"><font color="#52a447">Sign Up | </font> </a></p>
+       
+         
+        <td valign="top" bgcolor="green">
+        <form>
+          <table cellpadding="8" width="100%" border="0" bgcolor="#52a447">
+            <tr>
+              <td align="right" width="30%">Title:</td>
+              <td><input type="text" name="title" required></td>
+            </tr>
+            <tr>
+              <td align="right">Author:</td>
+              <td><input type="text" name="author" required></td>
+            </tr>
+            <tr>
+              <td align="right">CONTACT:</td>
+              <td><input type="text" name="isbn"></td>
+            </tr>
+            <tr>
+              <td align="right">Category:</td>
+              <td>
+                <select name="category">
+                  <option>Novel</option>
+                  <option>Sports</option>
+                  <option>Fiction</option>
+                  <option>Technology</option>
+                  <option>History</option>
+                   </select>
+              </td>
+            </tr>
+            <tr>
+              <td align="right">Published Year:</td>
+              <td><input type="number" name="year" min="1000" max="9999"></td>
+            </tr>
+            <tr>
+              <td align="right">Copies Available:</td>
+              <td><input type="number" name="copies" min="0" value="4"></td>
+            </tr>
+            <tr>
+              <td align="right">Cover Image (src):</td>
+              <td>
+                <input type="file" name="image_src" placeholder="Enter image src (leave empty if none)">
+              </td>
+            </tr>
+            <tr>
+              <td align="right" valign="top">Description:</td>
+              <td><textarea name="description" rows="9" cols="35"></textarea></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="submit" value="Add Book">
+                <input type="reset" value="Clear">
+              </td>
+               </tr>
+          </table>
+        </form>
+      </td>
+    </tr>
+     
+  </table>
+</body>
+</html>

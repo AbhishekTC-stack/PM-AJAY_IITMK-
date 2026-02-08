@@ -1,0 +1,19 @@
+body{background-color: rgb(205, 209, 208);}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+   width: 33%;
+   display:flex;
+  
+  
+}
+.c{
+     border-style: solid ;
+    border-color: green;
+    border-left: 2px;
+    border 
+    border-left: 2px green solid;
+
+}

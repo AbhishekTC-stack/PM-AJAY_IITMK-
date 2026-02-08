@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KBA Courses</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-white">
+    <div class="container">
+      <img src="./KBA-White-edited-225x300.png" style="height: 35px;">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./home.htm">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./courses.htm">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.htm">Contact us</a></li>
+          <li class="nav-item"><a class="nav-link" href="./addcourse.htm">Add course</a></li>
+          <li class="nav-item"><a class="nav-link" href="./login.htm">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <div class="container d-flex justify-content-center my-5" >
+  <div class="col-12 col-md-6 col-lg-4 p-4" style="background-color: rgb(118, 197, 230)">
+
+    <h2 class="text-center mb-4 fw-bold">Add Course</h2>
+
+    <form>
+
+      <div class="mb-3">
+        <label class="form-label">Course Name</label>
+        <input type="text" class="form-control" placeholder="Enter course name">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Course ID</label>
+        <input type="number" class="form-control" placeholder="Enter course ID">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Course Type</label>
+        <select class="form-select">
+          <option selected disabled>Select course type</option>
+          <option>Self paced</option>
+          <option>Instructor led</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea class="form-control" rows="3" placeholder="Course description"></textarea>
+      </div>
+
+      <div class="mb-4">
+        <label class="form-label">Price</label>
+        <select class="form-select">
+          <option selected disabled>Select price</option>
+          <option>Rs. 15,000</option>
+          <option>Rs. 25,000</option>
+        </select>
+      </div>
+
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary rounded-pill">
+          Add Course
+        </button>
+      </div>
+
+    </form>
+
+  </div>
+</div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .header{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        font-size: large;
+        padding: 20px;
+      
+        
+    }
+   
+    .header li a { padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    }
+    .header li a:hover{
+        text-decoration: rgb(3, 105, 66);
+        font-size: larger;}
+        .read{font-size: 100px;color: rgb(70, 133, 96); padding: 0;
+            text-align: center;}
+body{
+    background-image: url(./Pasted\ image.png);
+    background-size: cover;
+}
+
+.main{
+    text-align: center;
+    
+}
+.rd{
+        font-size: 260px;
+        color:white;
+        text-align: center;
+        margin-top: 300px;
+}
+.a{
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    margin: 20px;
+}
+.get{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border: solid rgb(230, 226, 226);
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}.get-parent{
+    display: flex;
+    justify-content: center;
+}
+.b{
+    margin-top: 300px;
+}

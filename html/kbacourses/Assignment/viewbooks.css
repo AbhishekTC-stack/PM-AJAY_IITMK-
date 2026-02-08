@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e9f5e6;
+}
+
+/* HEADER --------------------------- */
+.header {
+    list-style: none;
+    background: #3b8132;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* CONTAINER ------------------------ */
+.catalog-container {
+    width: 90%;
+    max-width: 900px;
+    background: #52a447;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* HEADER ROW ------------------------ */
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3b8132;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.catalog-header h2 {
+    color: white;
+    margin: 0;
+}
+
+.add-btn {
+    color: white;
+    background: #5cc75e;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TABLE ----------------------------- */
+.book-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+}
+
+.book-table th {
+    background: #3b8132;
+    color: white;
+    padding: 12px;
+}
+
+.book-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* BUTTONS ---------------------------- */
+.buttons button {
+    background: #3b8132;
+    border: none;
+    padding: 7px 12px;
+    margin: 3px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #2b5f25;
+}
+
+/* IMAGE ------------------------------ */
+.book-table img {
+    border-radius: 5px;
+}

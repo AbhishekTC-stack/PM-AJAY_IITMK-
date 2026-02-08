@@ -1,0 +1,79 @@
+ .header{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        font-size: large;
+        padding: 20px;
+        background-color:#e2c7fd;
+        text-decoration: aliceblue;
+    }
+    .header li a { padding: 5px;
+        
+    }
+    .header li a {color:#6c47b4}
+    .header li a:hover{
+        text-decoration: aqua;
+        font-size: larger;}
+        .heading {
+                margin-top: 2px;
+                text-align: center;
+                background: #e2c7fd;
+                padding: 40px 20px;
+                color: #2e0d56;
+                }
+                .heading h1 {
+            color: ;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        }
+
+        .heading p {
+        color: #000000;
+        font-size: 14px;
+        }
+        .browse{
+                margin-top: 50px;
+              text-align: center;
+              background: #e2c7fd;
+              padding: 40px 20px;
+        }
+        .browse h2 {
+            color: #5500bd;
+        }
+        .browse p {
+            color:#2e0d56;
+        }
+        .course {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin: 40px 0;
+            margin-left: 20px;
+            }
+
+            .box{
+            background:#e2c7fd;
+            padding: 20px;
+            width: 400px;
+            text-align: center;
+            border-radius: 10px;
+            
+            }
+             .box img {
+            width: 100px;
+            margin-bottom: 10px;
+            }
+
+            .box h3 {
+            color: #4b0082;
+            margin-bottom: 5px;
+            }
+
+            .box p {
+            color: #6c47b4;
+            margin-bottom: 15px;
+            }
+            .sub3{
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }

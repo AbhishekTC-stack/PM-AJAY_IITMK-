@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+       background-image: url(./Best\ AI\ Tools\ For\ Students\ \(March\ 2026\).jpeg);
+    background-size: cover;
+}
+
+
+
+ 
+
+.header {
+    list-style: none;
+    background: #ffffff67;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.header li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.catalog-container {
+    width: 90%;
+    max-width: 900px;
+    background: #ffffff48;
+    margin: 100px auto;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff44;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.catalog-header h2 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.add-btn {
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.book-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.185);
+}
+
+.book-table th {
+    background: #ffffff6e;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+}
+
+.book-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.buttons button {
+    background: #ffffff;
+    border: none;
+    padding: 7px 12px;
+    margin: 3px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #79cec0;
+}
+
+
+.book-table img {
+    border-radius: 5px;
+}

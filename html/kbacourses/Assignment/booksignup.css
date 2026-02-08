@@ -1,0 +1,49 @@
+.header{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        font-size: large;
+        padding: 20px;
+        background-color:rgb(70, 133, 96);
+        text-decoration: aliceblue;
+    }
+    .header li a { padding: 9px;
+        
+    }
+    .header li a {color: rgb(255, 255, 255);}
+    .header li a:hover{
+        text-decoration:rgb(10, 83, 41);
+        font-size: larger;}
+         .update{
+        background-color: rgb(70, 133, 96);
+    }
+ 
+    
+    .heading1{text-align: center;
+              margin-left: 150px;
+              margin-top: 200px ;
+    }
+    .input{ background-color:rgb(70, 133, 96); width: 600px;
+        height: 500px;
+         padding: 20px;
+        text-align: left;
+    margin-left: 700px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size:x-large;
+}
+.h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 700px;
+ 
+}
+.txt{
+    background-color:rgb(70, 133, 96); width: 700px;
+         padding: 20px;
+        text-align: center;
+    margin-left: 700px;
+}
+.btn
+{
+    background-color: rgb(133, 70, 107);
+    text-align: center;
+}

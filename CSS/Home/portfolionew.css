@@ -1,0 +1,103 @@
+
+.body{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.header{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        font-size: large;
+        padding: 20px;
+        background-color:rgb(3, 3, 3);
+        
+    }
+   
+    .header li a { padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(242, 246, 246);
+    }
+    .header li a:hover{
+        text-decoration: rgb(245, 242, 242);
+        font-size: larger;}
+
+    
+.main{
+    height: 800px;
+    width:1000px;
+    background-color:rgb(0, 0, 0);
+    border: solid rgb(87, 189, 217);
+    border-bottom: 0cap;
+    border-radius: 20px;
+    margin-left: 700px;
+    padding: 30px;
+    margin-bottom: 60px;
+
+    
+}
+.abhi{
+    color: rgb(77, 169, 248);
+}
+
+.ui{
+    color: rgb(67, 171, 240);
+    margin-top:20px;
+}
+    .a{ color: white;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: xx-large;
+        margin-top: 10px;
+    }
+    .img1{
+        
+        width: 200px;
+        height: 300px;
+        
+    }
+    p{
+        color: rgb(249, 249, 250);
+        display: flex;
+        justify-content: end;
+    }
+    .abt{
+        font-size: x-large;
+    }
+    .from2{ text-align: end;
+       
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 70px;
+        color: white;
+        margin-bottom: 20px;
+        margin-right: 20px;
+
+    }
+    .lang{text-align: center;
+       
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        color: rgb(32, 175, 203)
+        ;margin-top: 350px;
+
+    }
+.tools{
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    margin-left: 700px
+}
+.graphic{
+    text-align: center;
+       
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        color: rgb(32, 175, 203);
+        background-color: white;
+        height: 90px;
+        width: 1000px;
+        text-align: center;
+        margin-left: 500px;
+
+}
+
+   

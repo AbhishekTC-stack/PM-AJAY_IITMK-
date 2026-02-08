@@ -1,0 +1,43 @@
+ .header{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        font-size: large;
+        padding: 20px;
+        background-color:#e2c7fd;
+        text-decoration: aliceblue;
+    }
+    .header li a { padding: 5px;
+        
+    }
+    header li a {color: rgb(91, 56, 92);}
+    .header li a:hover{
+        text-decoration: aqua;
+        font-size: larger;}
+    .sign{
+        
+        font-size: x-large;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        background-color:#e2c7fd;width: 400px;height: 80px;
+        margin-top: 80px;
+        margin-left: 700px;
+        margin-bottom: 80px;
+       padding-bottom: 30px;
+        padding-left: px;
+        text-align: center;
+        padding-top: 40px;
+    }
+     .
+    .input{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          text-align: center;
+          background-color: #e2c7fd;padding-top: 40px;
+}
+.input1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          text-align: center;
+          background-color: #e2c7fd; padding: 30px; width: 340px;
+          margin-right: 30px;
+          margin-bottom: 40px;
+          padding-bottom: 40px;
+}

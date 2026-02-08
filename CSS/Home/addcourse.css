@@ -1,0 +1,23 @@
+
+    .header{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        font-size: large;
+        padding: 20px;
+        background-color:#e2c7fd;
+        text-decoration: aliceblue;
+    }
+    .header li a { padding: 9px;
+        
+    }
+    .header li a {color: rgb(91, 56, 92);}
+    .header li a:hover{
+        text-decoration: aqua;
+        font-size: larger;}
+    .table{background-color: #e2c7fd;border: 10px;width: 700px;
+    
+    }
+    .h1{
+        color: blueviolet;
+    }

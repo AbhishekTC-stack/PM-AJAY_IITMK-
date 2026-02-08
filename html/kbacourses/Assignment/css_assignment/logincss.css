@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-image: url(./Pasted\ image.png);
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+    text-align: right;
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #c1c9c0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    background: #ffffff31;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+}
+
+.log{
+    background: #e1e4e0;
+    padding: 25px;
+    border-radius: 10px;
+    width: 500px;
+    margin-right: 100px;
+}
+
+.log h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.a {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 16px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.chk {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.btns {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.btns input {
+    padding: 10px 20px;
+    margin: 5px;
+    background: white;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btns input:hover {
+    background: #d2ffd2;
+}
+
+.side-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.signup-text a {
+    color: #000000;
+    text-decoration: underline;
+}

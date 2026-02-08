@@ -1,0 +1,113 @@
+
+body {
+ 
+    background-image: url(./Pasted\ image.png);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+header {
+    padding: 20px;
+    text-align: right;
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #c1c9c0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    width: 800px;
+    background: #fdfdfd3f;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.form-card {
+    background: #ffffff63;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.to-login {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.to-login a {
+    color: #eaffea;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btns button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background: white;
+    color: #000000;
+    font-weight: bold;
+}
+
+.clear-btn {
+    background: #dfffe077;
+}
+
+.btns button:hover {
+    background: #c4ffca;
+}
+.get{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border: solid rgb(230, 226, 226);
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}.get-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

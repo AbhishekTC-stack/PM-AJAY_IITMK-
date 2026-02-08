@@ -1,0 +1,41 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(183, 229, 201);
+}
+
+.main{
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.content{
+    width: 400px;
+    border-left: 3px solid rgb(5, 153, 0) ;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+@media only screen and (min-width:600px)
+ 
+{ 
+   
+   .one{
+  
+    width: 33.33%;
+    border-style: solid;
+    border-left: 3px solid rgb(153, 0, 117) ;
+    padding: 10px;
+}.
+}
+ 
+
+
